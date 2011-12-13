@@ -29,6 +29,7 @@ add_shortcode('smile', "sml_func");
 function sml_head() {
 ?><script type="text/javascript">
 jQuery(function($) {
+	//Edo exeis lathos
     $(".smile.more").click(function() { $(this).hide().next().fadeIn(); return false; }).next();
     $(".smile.less").click(function() { $(this).parent().hide().prev().fadeIn(); return false; });
 });
