@@ -38,4 +38,6 @@ jQuery(function($) {
 
 add_action('wp_head','sml_head');
 
+wp_enqueue_script("jquery");
+
 ?>
